@@ -66,7 +66,7 @@ The following table provides a list of all datasets included in this replication
 | Data file and subdirectory                | Source                       | Notes                                       |Provided |
 |-------------------------------------------|------------------------------|---------------------------------------------|---------|
 | `bls/stateabb.dta`                        | Bureau of Labor Statistics (2005) | Crosswalk from USPS state abbreviations to FIPS codes | Yes |
-| `great_depression/State-level personal income per capita, 1929-2018.xlsx` | Fishback (2015, p. 98) and Bureau of Economic Analysis (2023) | Yes | 
+| `great_depression/State-level personal income per capita, 1929-2018.xlsx` | Fishback (2015, p. 98) and Bureau of Economic Analysis (2023) | State-level income per capita | Yes | 
 | `ipums/ipums_1940_100_pct/usa_00090.dat`  | Ruggles et al. (2023) | 1940 US Full-Count Census | No |
 | `ipums/ipums_1950_100_pct/usa_00089.dat`  | Ruggles et al. (2023) | 1940 US Full-Count Census | No |
 | `ipums/usa_00083.dat`                     | Ruggles et al. (2023) | 5% sample of 1990 U.S. Census | Yes |
@@ -203,7 +203,6 @@ To perform a clean run
 
 The provided code reproduces:
 
-- All numbers provided in text in the paper
 - All tables and figures in the paper
 
 
@@ -257,7 +256,7 @@ Bureau of Labor Statistics. 2005. "Appendix D - USPS State Abbreviations and FIP
 
 Fishback, Price V. 2015. "New Deal Funding: Estimates of Federal Grants and Loans across States by Year, 1930–1940," Research in Economic History, Vol. 31, pp. 41-109. https://doi.org/10.1108/S0363-326820150000031002. 
 
-Jacks, David S., Krishna Pendakur, Hitoshi Shigeoka. 2021. "Infant Mortality and the Repeal of Federal Prohibition," The Economic Journal, Vol. 131 No. 639, pp. 2955–2983. https://doi-org.proxy1-bib.sdu.dk/10.1093/ej/ueab011.
+Jacks, David S., Krishna Pendakur, Hitoshi Shigeoka. 2021. "Infant Mortality and the Repeal of Federal Prohibition," The Economic Journal, Vol. 131 No. 639, pp. 2955–2983. https://doi.org/10.1093/ej/ueab011.
 
 Manson, Steven, Jonathan Schroeder, David Van Riper, Tracy Kugler, and Steven Ruggles. 2022. IPUMS National Historical Geographic Information System: Version 17.0 [dataset]. Minneapolis, MN: IPUMS. http://doi.org/10.18128/D050.V17.0.
 
