@@ -190,7 +190,7 @@ This compromise ensured that the process of repeal was not uniform across states
 As states quickly and sometimes unexpectedly opted for repeal of federal prohibition, they reverted to the \emph{status quo ante} established by legislation related to alcohol control that pre-dated federal prohibition. 
 Thus, many jurisdictions that wanted to change their local prohibition status had to wait for the arrival and passage of enabling legislation. 
 The patchwork regulatory regime that emerged immediately after repeal worked to ensure that the timing of such transitions was a function of idiosyncratic local factors \citepMain{childs_making_1947,clark_dry_1965,fosdick_toward_1933,harrison_after_1936}. 
-That is, they were likely uncorrelated with other potential policy changes \citepMain{jacks_infant_2021}.\footnote{Furthermore, Appendix D of \citeMain{jacks_infant_2021} considers the possibility that individuals may have migrated to counties in response to the maintenance or repeal of prohibition at the local level. 
+That is, they were likely uncorrelated with other potential policy changes \citepMain{jacks_urban_2023}.\footnote{Furthermore, Appendix D of \citeMain{jacks_infant_2021} considers the possibility that individuals may have migrated to counties in response to the maintenance or repeal of prohibition at the local level. 
 Analysis of county-level measures of net migration in 1940 finds no relationship between changes in prohibition status and county-level changes in population. 
 Thus, there is little evidence to the effect that changes in prohibition status drove intercounty -- and presumably, interstate -- migration patterns in this period.
 }
@@ -202,7 +202,7 @@ Thus, there is little evidence to the effect that changes in prohibition status 
 \section{Data} \label{sec:data}
 
 Our data are drawn from three main sources: annual counts of death by state- and year-of birth have been extracted from the Multiple Cause-of-Death Mortality database while the US Census is used to calculate the size of surviving cohorts in 1990, and annual indicators of state-level prohibition status have been constructed from contemporary sources. 
-These are discussed along with details of data construction in Sections~\ref{sec:data-mortality} and \ref{sec:data-prohibition-status}, respectively. 
+These are discussed along with details of data construction in Sections~\ref{sec:data-mortality} and \ref{sec:data-prohibition-status}, respectively \citepMain{jacks_data_2024}. 
 
 \subsection{Dependent variable: mortality and surviving cohort size}\label{sec:data-mortality}
 
@@ -226,7 +226,7 @@ Thus, our variable of interest is the mortality rate in year $(t)$ for a given s
 
 For our baseline results, our focus is on all-cause mortality. 
 However, to establish the potential physiological mechanisms underlying these estimates, the MCOD database also allows us to examine cause-specific mortality. 
-In particular, we evaluate later-life mortality rates coming from heart disease, stroke, and cancer, which were the three leading causes of death in 2004 \citepMain{minino_deaths_2007} and for which in-utero alcohol exposure is a potential cause \citepMain{burd_congenital_2007,moore_what_2015,cook_association_2019}.\footnote{See Table~\ref{tab:icd-crosswalk} in Appendix~\ref{sec:additional-tab-fig} for the crosswalk of ICD9 and ICD10 codes used to construct cause-specific mortality rates.}
+In particular, we evaluate later-life mortality rates coming from heart disease, stroke, and cancer, which were the three leading causes of death in 2004 \citepMain{minino_deaths_2007} and for which in-utero alcohol exposure is a potential cause \citepMain{burd_congenital_2007,moore_what_2015,cook_association_2019}.\footnote{See Table~\ref{tab:icd-crosswalk} in Appendix~\ref{sec:additional-tab-fig} for the crosswalk of ICD9 and ICD10 codes used to construct cause-specific mortality rates \citepMain{national_center_for_health_statistics_us_comparability_2001}.}
 
 \subsection{Treatment variable: prohibition status}\label{sec:data-prohibition-status}
 
@@ -538,7 +538,7 @@ It remains an open question whether differences in education, marital status, or
             The ``Mean of Y'' is the sample mean of the dependent variable for pre-treatment (1930-1933) birth cohorts in not-yet-treated states. 
             Mortality is observed between 1990 and 2004. 
             The dependent variable is the number of deaths per 1,000 population. 
-            Each coefficient is the average of the \citeMain{sun_estimating_2021} event study coefficients from $l = 0$ to $l = 4$ and represents the average change in the later-life all-cause mortality rate attributable to in utero exposure to the first five years of federal prohibition’s repeal. 
+            Each coefficient is the average of the \citeMain{sun_estimating_2021} event study coefficients from $l = 0$ to $l = 4$ and represents the average change in the later-life all-cause mortality rate attributable to in utero exposure to the first five years of federal prohibition's repeal. 
             In columns 1 to 3, observations are treated (i.e., the indicator for wet status equals one) if at least some alcohol sales were allowed anywhere within the state of birth in the year of birth. 
             The specification for Column 1 corresponds to the event study in Panel A of Figure~\ref{fig:event-study-cause-of-death} where all-cause mortality rates are a function of state of birth by death year and year of birth by death year fixed effects. 
             Column 2 includes control variables for the log of per capita New Deal spending and the log of per capita real disposable personal income at the state level. 
@@ -729,7 +729,7 @@ It remains an open question whether differences in education, marital status, or
         \bottomrule
         \addlinespace[.75ex]
         \end{tabular}
-        \Fignote{ICD9 was used until 1998 while ICD10 has been used since in the Multiple Cause of Death data. Source: \citepMain{national_center_for_health_statistics_us_comparability_2001}.}
+        \Fignote{ICD9 was used until 1998 while ICD10 has been used since in the Multiple Cause of Death data. Source: \citeApp{national_center_for_health_statistics_us_comparability_2001}.}
     \end{threeparttable}
     \end{adjustbox}
 \end{table}
